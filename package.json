@@ -1,0 +1,20 @@
+{
+  "name": "repo-raccoon",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Finds Morpho Blue loans that are profitable to liquidate, and checks who is competing for them.",
+  "scripts": {
+    "scan": "node src/scan.mjs",
+    "competition": "node src/competition.mjs",
+    "aave": "node src/aave-scan.mjs",
+    "winners": "node src/winners.mjs",
+    "practice": "node src/practice.mjs",
+    "pull-survey": "node src/pull-survey.mjs",
+    "buffer-replay": "node src/buffer-replay.mjs"
+  },
+  "dependencies": {
+    "dotenv": "16.6.1",
+    "viem": "2.57.1"
+  }
+}
